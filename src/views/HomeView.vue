@@ -1,9 +1,10 @@
+<template>
+  <home-navbar />
+</template>
+
 <script setup>
-import TheWelcome from '@/components/TheWelcome.vue'
+import HomeNavbar from '@/components/Home/HomeNavbar.vue'
 </script>
 
-<template>
-  <main>
-    <TheWelcome />
-  </main>
-</template>
+<style scoped>
+</style>
