@@ -4,6 +4,5 @@
 
 <style scoped>
 .home-navbar {
-  background: red;
 }
 </style>
