@@ -1,3 +1,14 @@
+:root {
+  :root {
+    --color-green: #808B78;
+    --color-brown: #42392B;
+    --color-brown-200: #7D7872;
+    --color-brown-100: #8B755D;
+    --color-fondo: #F8F8F8;
+    --color-gray: #C4C4C4;
+    --color-white-soft: #FFFFFF;
+  }
+}
 *,
 *::before,
 *::after {
@@ -13,4 +24,6 @@ html {
 
 body {
   font-size: 1.6rem;
+  color: #42392B;
+  background: #F8F8F8;
 }

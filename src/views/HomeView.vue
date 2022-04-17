@@ -13,6 +13,7 @@ import LayoutFooter from '@/components/Layout/LayoutFooter.vue'
 <style scoped>
 .home-view {
   display: grid;
-  background: black;
+  grid-template-rows: 16rem 10rem auto 10rem;
+  gap: 3rem;
 }
 </style>
