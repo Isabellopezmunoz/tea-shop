@@ -4,7 +4,9 @@
 
     <h1 class="layout-navbar__title">
       Un té para cada momento del día
-      <p>Tu tienda de té favorita</p>
+      <p>
+        Tu tienda de té favorita
+      </p>
     </h1>
 
     <button class="layout-navbar__button">
