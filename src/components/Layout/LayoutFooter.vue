@@ -29,7 +29,7 @@
 
   <button class="contact-button">
     Contact Us
-    <img src="@/assets/movil-icon.svg">
+    <img  src="@/assets/movil-icon.svg">
   </button>
   <button class="about-us-button">
     About Us
@@ -44,6 +44,45 @@
 
 <style scoped>
 .footer-container {
-  background: ;
+  display: flex;
+  justify-content: space-between;
+  background: #42392B;
+  height: 10rem;
+}
+
+.pay-list {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  cursor: pointer;
+}
+
+.social-list {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  cursor: pointer;
+}
+
+.contact-button {
+  display: flex;
+  align-items: center;
+  font-size: 2.4rem;
+  color: #ffffff;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.about-us-button {
+  display: flex;
+  align-items: center;
+  font-size: 2.4rem;
+  color: #ffffff;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
 }
 </style>
