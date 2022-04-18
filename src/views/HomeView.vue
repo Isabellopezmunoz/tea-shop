@@ -10,7 +10,7 @@
 <script setup>
 import LayoutFooter from '@/components/Layout/LayoutFooter.vue'
 import HomeOfert from '@/components/Home/HomeOfert.vue'
-import LayoutNavbar from '@/components/Layout/layoutNavbar.vue'
+import LayoutNavbar from '@/components/Layout/LayoutNavbar.vue'
 import HomeTeaList from '@/components/Home/HomeTeaList.vue'
 </script>
 
