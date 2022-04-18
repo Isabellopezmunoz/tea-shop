@@ -1,13 +1,11 @@
 :root {
-  :root {
-    --color-green: #808B78;
-    --color-brown: #42392B;
-    --color-brown-200: #7D7872;
-    --color-brown-100: #8B755D;
-    --color-fondo: #F8F8F8;
-    --color-gray: #C4C4C4;
-    --color-white-soft: #FFFFFF;
-  }
+  --color-green: #808B78;
+  --color-brown: #42392B;
+  --color-brown-200: #7D7872;
+  --color-brown-100: #8B755D;
+  --color-fondo: #F8F8F8;
+  --color-gray: #C4C4C4;
+  --color-white-soft: #FFFFFF;
 }
 *,
 *::before,
@@ -24,6 +22,7 @@ html {
 
 body {
   font-size: 1.6rem;
+  font-family: 'Roboto Condensed', sans-serif;
   color: #42392B;
   background: #F8F8F8;
 }

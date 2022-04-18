@@ -1,33 +1,42 @@
 <template>
-  <nav class="layout-navbar">
-    <img class="layout-navbar-__logo" src="@/assets/tea-logo-icon.svg">
 
-    <h1 class="layout-navbar__title">
-      Un té para cada momento del día
-      <p>
-        Tu tienda de té favorita
-      </p>
-    </h1>
+<nav class="layout-navbar">
 
+  <figure class="layout-navbar__logo">
+    <img src="@/assets/tea-logo-icon.svg">
+  </figure>
+
+  <div class="layout-navbar__title">
+    <h1>Un té para cada momento del día</h1>
+    <h2>Tu tienda de té favorita</h2>
+  </div>
+
+  <div>
     <button class="layout-navbar__button">
       Buscador de Té
       <img src="@/assets/lupa-icon.svg">
     </button>
+  </div>
 
-    <div class="layout-navbar__account">
-      <a href="">Mi Cuenta</a>
-    </div>
+  <div class="layout-navbar__account">
+    <a href="">
+      Mi Cuenta
+    </a>
+  </div>
 
-     <div class="layout-navbar__shopping-cart">
-      <a href="">Mi Cesta</a>
-    </div>
-  </nav>
+  <div class="layout-navbar__shopping-cart">
+    <a href="">
+      Mi Cesta
+    </a>
+  </div>
+</nav>
 </template>
+
 
 <style scoped>
 .layout-navbar {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   background: #ffffff;
   height: 16rem;
@@ -37,16 +46,17 @@
 .layout-navbar-__logo {
   height: 12rem;
   width: 12rem;
-  padding: 0 0 0 2rem;
 }
 
-.layout-navbar__title {
-  font-size: 3.2rem ;
+.layout-navbar__title h1 {
+  font-size: 2.4rem ;
   text-align: center;
+  font-weight: bold;
 }
 
-.layout-navbar__title p {
-  font-size: 2.4rem;
+.layout-navbar__title h2 {
+  font-size: 2.4rem ;
+  text-align: center;
 }
 
 .layout-navbar__button {

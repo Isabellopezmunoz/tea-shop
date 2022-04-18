@@ -45,7 +45,7 @@
 <style scoped>
 .footer-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   background: #42392B;
   height: 10rem;
 }
