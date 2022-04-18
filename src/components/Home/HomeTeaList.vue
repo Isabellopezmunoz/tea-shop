@@ -1,6 +1,6 @@
 <template>
 <section class="home-tea-list__container">
-  <article class="home-tea-list__card">
+  <article class="home-tea-list__card" @click="router.push('/tea-detail')">
     <h1>
       Té rojo
     </h1>
@@ -51,7 +51,11 @@
 </template>
 
 <script setup>
-  //import componentName from '../components/Folder/componentName.vue'
+//import componentName from '../components/Folder/componentName.vue'
+import { useRouter } from 'vue-router'
+
+const router = useRouter()
+
 </script>
 
 <style scoped>
