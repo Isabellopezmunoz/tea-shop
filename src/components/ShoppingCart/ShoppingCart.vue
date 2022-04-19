@@ -62,6 +62,12 @@
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
 }
 
+.shopping-cart__image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .shopping-cart__image img {
   width: 38rem;
   height: 38rem;
@@ -69,13 +75,14 @@
 
 .shopping-cart__quantities-group {
   display: grid;
-  justify-content: center;
-  gap: 1rem;
+  justify-items: center;
+  align-items: center;
+  gap: 0.5rem;
 }
 
 .shopping-cart__quantities {
   display: inline-flex;
-  align-items: center;
+  align-content: center;
   gap: 1rem;
   margin-right: 1rem;
 }
@@ -94,7 +101,7 @@
 .shopping-cart__pay-section {
   display: grid;
   grid-template-rows: auto auto auto auto;
-  justify-content: center;
+  justify-items: center;
   align-content: center;
   gap: 5rem;
   background: #42392B;
@@ -115,5 +122,36 @@
   border: none;
   border-radius: 1rem;
   cursor: pointer
+}
+
+@media only screen and (max-width: 1120px) {
+  .shopping-cart__pay-section {
+  display: grid;
+  grid-template-rows: auto auto auto auto;
+  justify-items: center;
+  align-content: center;
+  gap: 2rem;
+  }
+
+  .shopping-cart__pay-section *:not(button) {
+    font-size: 1.6rem;
+  }
+
+  .shopping-cart__pay-section button {
+  width: 6rem;
+  height: 5rem;
+}
+
+.shopping-cart__input-number {
+  height: 4rem;
+  width: 4rem;
+  text-align: center;
+}
+
+
+.shopping-cart__image img {
+  width: 28rem;
+  height: 28rem;
+}
 }
 </style>

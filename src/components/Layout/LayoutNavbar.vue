@@ -1,7 +1,6 @@
 <template>
 
 <nav class="layout-navbar">
-
   <figure class="layout-navbar__logo">
     <img src="@/assets/tea-logo-icon.svg">
   </figure>
@@ -101,5 +100,40 @@
   display: flex;
   width: 14rem;
   height: 4rem;
+}
+
+@media only screen and (max-width: 1120px) {
+  .layout-navbar {
+    display: grid;
+    grid-template-columns: 4rem 4rem auto auto auto;
+    grid-template-rows: auto auto;
+    grid-template-areas:
+      ". logo title title ."
+      ". search-bar search-bar account shopping-cart";
+  }
+
+  .layout-navbar__logo {
+    grid-area: logo;
+  }
+
+  .layout-navbar__title {
+    grid-area: title;
+  }
+
+  .layout-navbar__title + div {
+    grid-area: search-bar;
+  }
+
+  .layout-navbar__button {
+    height: 3.5rem;
+  }
+
+  .layout-navbar__account {
+    grid-area: account;
+  }
+
+  .layout-navbar__shopping-cart {
+    grid-area: shopping-cart;
+  }
 }
 </style>

@@ -120,4 +120,17 @@
   border-radius: 2rem;
   cursor: pointer;
 }
+
+@media only screen and (max-width: 1120px) {
+  .tea-detail__shopping-button {
+    width: 15rem;
+    height: 3rem;
+  }
+
+  .tea-detail__shopping-section input {
+  height: 3rem;
+  width: 4rem;
+  text-align: center;
+}
+}
 </style>
