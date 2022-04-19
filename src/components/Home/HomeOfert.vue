@@ -54,4 +54,14 @@
   border-radius: 1rem;
   cursor: pointer;
 }
+
+@media only screen and (max-width: 1120px) {
+  .home-ofert__container {
+    display: inline-block;
+  }
+  .home-ofert__button {
+  width: 12rem;
+  height: 6rem;
+}
+}
 </style>
